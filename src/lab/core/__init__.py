@@ -1,4 +1,1 @@
-# Core module for the lab
-
-### Initialization
-This file is for the initialization of the lab core module.
+"""Core building blocks for the training lab."""
