@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMSI/Rogue BTS Training Lab</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>IMSI Catcher & Rogue BTS Training Lab</h1>
+      <p>Simulated scenarios for telecom security training. No real interception occurs.</p>
+    </header>
+    <main>
+      <section class="panel">
+        <h2>Scenarios</h2>
+        <div class="buttons">
+          <button data-scenario="downgrade">Downgrade</button>
+          <button data-scenario="rogue_bts">Rogue BTS</button>
+          <button data-scenario="imsi_catcher">IMSI Catcher</button>
+          <button id="reset">Reset</button>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>Network State</h2>
+        <pre id="state">Loading...</pre>
+      </section>
+      <section class="panel">
+        <h2>Event Log</h2>
+        <pre id="logs">Loading...</pre>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
